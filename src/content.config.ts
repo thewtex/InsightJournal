@@ -22,7 +22,7 @@ const server: InsightJournalMystConfig = {
   generateSearchIndex: false,
   includeKeywords: true,
   pageConcurrency: 4,
-  generateArchive: false,
+  generateArchive: true,
   archivePath: resolve(process.cwd(), "archive"),
 };
 
